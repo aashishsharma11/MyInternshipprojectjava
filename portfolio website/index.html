@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4c88bc738.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/as1.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I'm <span>Aashish</span><br>Kumar from Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------------------About Me--------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/as.webp">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am Aashish kumar (born 04 May 2002).I am studing in B.tech(3rd year),Department:Electrical And Eletronics Engineering
+                    (EEE). </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS apps</li>
+                            <li><span>AWS Cloud Foundation</span><br>AWS Management Console</li>
+                            <li><span>FULL STACK JAVA CODER</span></li>JAVA Programming</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - Current</span><br>Internship in Python Programming.</li>
+                            <li><span>2022 - 2023</span><br>Community Service Oriented Project At GIET.</li>
+                            <li><span>2023</span><br>Internship in AWS Cloud Virtual.</li>
+                            <li><span>2023</span><br>Internship in JAVA Programming.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.tech in EEE at GIET.</li>
+                            <li><span>2020</span><br>10+2 from GAYA in Bihar.</li>
+                            <li><span>2018</span><br>10th from Fatehpur in Bihar.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------service-------------->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>we believe that a great website is the digital face of your brand. Our team of talented web
+                        designers is dedicated to crafting visually stunning, user-friendly, and functional websites
+                        that not only captivate your audience but also drive results. Whether you're looking to
+                        establish your online presence, boost your e-commerce sales, or create an engaging platform for
+                        your content, we are here to transform your vision into a digital reality.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>we understand that exceptional user experiences are the cornerstone of successful digital
+                        products. Our team of skilled UI/UX designers is dedicated to creating interfaces that
+                        seamlessly blend aesthetics with functionality. We meticulously craft every element of your
+                        digital platform, ensuring that it not only looks stunning but also provides an intuitive and
+                        enjoyable experience for your users.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>APP Design</h2>
+                    <p>we're passionate about crafting mobile applications that redefine user engagement and
+                        functionality. Our dedicated team of app designers specializes in turning innovative ideas into
+                        visually stunning and highly functional digital experiences. We understand that today's users
+                        demand intuitive interfaces, seamless navigation, and exceptional aesthetics. Welcome to the
+                        world of app design excellence, where we turn your app dreams into reality, one pixel at a time.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------portfolio---------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/image1.jpeg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app contents you to talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/image2.jpeg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app contents you to talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/image3.jpeg">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app contents you to talented people around the world.Download it from play store.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------project-------------->
+    <div id="project">
+        <div class="container">
+            <h1 class="sub-title">My Project</h1>
+            <div  class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>AWS Cloud Foundation</h2>
+                    <p>We believe that a great website is the digital face of your brand.Our team of talented web
+                        designers is dedicated to crafting visually stunning, user-friendly, and functional websites
+                        that not only captivate your audience but also drive results.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Community Service Oriented Project</h2>
+                    <p>we understand that exceptional user experiences are the cornerstone of successful digital
+                        products.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>APP Design</h2>
+                    <p>we're passionate about crafting mobile applications that redefine user engagement and
+                        functionality.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!------------------contact-------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <h1 class="sub-title">Contact Me</h1>
+
+                <br>
+            </div><br>
+            
+                <p><i class="fa-solid fa-paper-plane"></i> aashishkr452002@gmail.com </p><br>
+                <p><i class="fa-solid fa-phone"></i> +916299566025 </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/aashishkumar.akumar.5?mibextid=3JLxgoXK8XkhKqoE"><i
+                             class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/invites/contact/?i=z374kx3tpbcy&utm_content=lbavxyy"><i 
+                             class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/aashish-kumar-231153297"><i 
+                             class="fab fa-linkedin"></i></a><br>
+                    <a href="" download="" class="btn btn2">Download CV</a>
+
+                </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <input type="tel" name="Mobile Number" placeholder="Your Mobile Number" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+
+        <span id="msg"></span>
+
+
+    </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copright @ Aashish. Made with <i class="fa-solid fa-heart"></i> by Aashish Kumar</p>
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzoc3KNgR2FL2Syl-I7evUsYdm9m6Yzm8ilC5BZ7qH7WPQiHtaL6M0DkSCQxNL6MtEC9Q/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0px";
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+
+</body>
+
+</html>
